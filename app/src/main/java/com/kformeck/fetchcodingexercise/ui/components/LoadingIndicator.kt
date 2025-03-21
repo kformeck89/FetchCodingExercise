@@ -26,7 +26,7 @@ fun LoadingIndicator(modifier: Modifier = Modifier) {
     }
 }
 
-@Preview
+@Preview(showBackground = true)
 @Composable
 fun LoadingIndicatorPreview() {
     FetchCodingExerciseTheme {

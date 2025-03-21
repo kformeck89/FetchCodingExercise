@@ -23,8 +23,8 @@ class ResultsViewModel @Inject constructor(
                     listId = group.key.toString(),
                     items = group.value
                         // Sort by ID instead of name for better readability of the data
-                        // Sorting by name causes incorrect numerical ordering because it's a string
                         // This only works because name always equals "Item " + id
+                        // Sorting by name causes incorrect numerical ordering because it's a string
                         .sortedBy { it.id }
                         .map { HiringDataCardItem.fromFetchHiringDataItem(it) },
                 )

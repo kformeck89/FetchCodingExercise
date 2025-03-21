@@ -160,7 +160,6 @@ private fun HiringDataCard(
         modifier = modifier.fillMaxWidth(),
     ) {
         Column(
-            horizontalAlignment = Alignment.Start,
             verticalArrangement = Arrangement.Center,
             modifier = Modifier.padding(dimensionResource(R.dimen.padding_medium)),
         ) {
@@ -217,14 +216,6 @@ private fun ScrollToTopButton(
 private fun TitleBarPreview() {
     FetchCodingExerciseTheme {
         TitleBar({})
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-private fun HiringDataCardPreview() {
-    FetchCodingExerciseTheme {
-        HiringDataCard(HiringDataCardItem(id = 101, name = "Item 101"))
     }
 }
 

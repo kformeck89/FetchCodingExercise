@@ -17,6 +17,7 @@ fun ContentContainer(
     applyHorizontalPadding: Boolean = true,
     content: @Composable () -> Unit,
 ) {
+    val horizontalPadding = dimensionResource(R.dimen.padding_medium)
     Column(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -25,13 +26,13 @@ fun ContentContainer(
             .padding(
                 start =
                     if (applyHorizontalPadding) {
-                        dimensionResource(R.dimen.padding_medium)
+                        horizontalPadding
                     } else {
                         0.dp
                     },
                 end =
                     if (applyHorizontalPadding) {
-                        dimensionResource(R.dimen.padding_medium)
+                        horizontalPadding
                     } else {
                         0.dp
                     },
