@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FetchCodingExercise</string>
+    <string name="message_welcome_headline">Welcome to the Fetch Coding Exercise!</string>
+    <string name="message_welcome_instruction">Click the button below to retrieve the hiring data.</string>
+    <string name="message_error">An error occurred while retrieving the hiring data. Please wait a moment and try again.</string>
+    <string name="button_retrieve_data">Retrieve Hiring Data</string>
+    <string name="text_prefix_id">"ID: "</string>
+    <string name="text_prefix_name">"Name: "</string>
+    <string name="text_results_title_bar_title">Fetch Hiring Data Results</string>
+    <string name="desc_button_back">Go back to previous screen</string>
+    <string name="desc_button_scroll_to_top">Scroll to the top of the list</string>
+</resources>
